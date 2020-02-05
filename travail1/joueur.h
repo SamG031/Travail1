@@ -19,8 +19,12 @@ public:
 	string getNom();
 	int getVictoire();
 	int getDefaite();
-	Carte* getCard();
+	Carte* getCard(int);
 	void inscrireJoueur(string, int, int);
+	int addVictoire();
+	int addDefaite();
 	void creerJeuxCarte(Carte*, int);
+	void addCard(int);
+	void clearMain();
 };
 #endif
